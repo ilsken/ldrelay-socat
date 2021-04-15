@@ -1,3 +1,3 @@
 #!/usr/bin/with-contenv sh
 
-exec socat TCP-LISTEN:$REDIS_PORT $SOCAT_UPSTREAM
+exec socat $SOCAT_LISTEN $SOCAT_UPSTREAM
